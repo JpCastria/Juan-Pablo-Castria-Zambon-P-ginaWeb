@@ -5,110 +5,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rutas Argentinas</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@400;600;700&display=swap" type="text/css">
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f%5B%5D=clash-display@600,700&display=swap" type="text/css">
+    <link rel="stylesheet" href="estilos/styles.css" type="text/css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Rutas Argentinas</h1>
+    <header class="encabezado">
+        <div class="contenedor contenidoEncabezado">
+            <div>
+                <h1 class="nombreSitio">Rutas Argentinas</h1>
 
-        <h2>Guía visual de Argentina</h2>
+                <h2 class="subtituloSitio">Guía visual de Argentina</h2>
+            </div>
 
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#destinos">Destinos</a></li>
-                <li><a href="#datos">Datos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul class="menu">
+                    <li><a class="enlaceMenu" href="#inicio">Inicio</a></li>
+                    <li><a class="enlaceMenu" href="#destinos">Destinos</a></li>
+                    <li><a class="enlaceMenu" href="#datos">Datos</a></li>
+                    <li><a class="enlaceMenu" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
     <main>
 
-        <section id="inicio">
-            <h2>Un país, mil formas de viajar</h2>
+        <section id="inicio" class="seccion">
+            <div class="contenedor">
+                <p class="etiqueta">GUÍA VISUAL · ARGENTINA</p>
 
-            <p>
-                Desde las cumbres de la Patagonia hasta la energía de Buenos Aires
-                y la fuerza de Iguazú, Argentina ofrece paisajes y lugares únicos
-                para conocer.
-            </p>
+                <h2 class="tituloPresentacion">Un país, mil formas de viajar.</h2>
 
-            <a href="https://www.argentina.travel/" target="_blank">
-                Visitar Argentina Travel
-            </a>
+                <p class="textoPresentacion">
+                    Desde las cumbres de la Patagonia hasta la energía de Buenos Aires
+                    y la fuerza de Iguazú, Argentina ofrece paisajes y lugares únicos
+                    para conocer.
+                </p>
+
+                <a class="boton" href="https://www.argentina.travel/" target="_blank" rel="noopener noreferrer">
+                    Visitar Argentina Travel ↗
+                </a>
+            </div>
         </section>
 
 
-        <section id="destinos">
-            <h2>Un recorrido de norte a sur</h2>
+        <section id="destinos" class="seccion">
+            <div class="contenedor">
+                <p class="etiqueta">03 DESTINOS PARA EMPEZAR</p>
 
-            <h3>Patagonia</h3>
+                <h2 class="tituloSeccion">Un recorrido de norte a sur:</h2>
 
-            <img src="https://framerusercontent.com/images/XTxzE8BCvPB7W127o3DhwfqVDIc.jpg?height=800&width=1200"
-                alt="Montañas de la Patagonia">
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <img class="imagenTarjeta" src="imagenes/patagonia.jpg" alt="Montañas de la Patagonia">
 
-            <p>
-                Glaciares, lagos y senderos con paisajes de escala inmensa.
-            </p>
+                        <p class="etiquetaTarjeta">01 — SUR</p>
 
+                        <h3 class="tituloTarjeta">Patagonia</h3>
 
-            <h3>Buenos Aires</h3>
+                        <p class="textoTarjeta">
+                            Glaciares, lagos y senderos con paisajes de escala inmensa.
+                        </p>
 
-            <img src="https://framerusercontent.com/images/FnZrrM1XtYLbBxqgFkm2A8hfvQ.jpg?height=800&width=1200"
-                alt="Edificio histórico de Buenos Aires">
+                        <a class="enlace" href="https://es.wikipedia.org/wiki/Patagonia" target="_blank"
+                            rel="noopener noreferrer">
+                            Conocer Patagonia ↗
+                        </a>
+                    </div>
 
-            <p>
-                Arquitectura, librerías, barrios y una escena cultural siempre activa.
-            </p>
+                    <div class="tarjeta">
+                        <img class="imagenTarjeta" src="imagenes/buenos-aires.jpg"
+                            alt="Edificio histórico de Buenos Aires">
 
+                        <p class="etiquetaTarjeta">02 — CENTRO</p>
 
-            <h3>Iguazú</h3>
+                        <h3 class="tituloTarjeta">Buenos Aires</h3>
 
-            <img src="https://framerusercontent.com/images/317fY27sEnoYNjHWDI0cBxzvo54.jpg?height=675&width=1200"
-                alt="Cataratas del Iguazú">
+                        <p class="textoTarjeta">
+                            Arquitectura, librerías, barrios y una escena cultural siempre activa.
+                        </p>
 
-            <p>
-                Una de las mayores maravillas naturales de Sudamérica.
-            </p>
+                        <a class="enlace" href="https://es.wikipedia.org/wiki/Buenos_Aires" target="_blank"
+                            rel="noopener noreferrer">
+                            Conocer Buenos Aires ↗
+                        </a>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img class="imagenTarjeta" src="imagenes/iguazu.jpg" alt="Cataratas del Iguazú">
+
+                        <p class="etiquetaTarjeta">03 — LITORAL</p>
+
+                        <h3 class="tituloTarjeta">Iguazú</h3>
+
+                        <p class="textoTarjeta">
+                            Una de las mayores maravillas naturales de Sudamérica.
+                        </p>
+
+                        <a class="enlace" href="https://es.wikipedia.org/wiki/Cataratas_del_Iguaz%C3%BA"
+                            target="_blank" rel="noopener noreferrer">
+                            Conocer Iguazú ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-        <section id="informacion">
-            <h2>Argentina se recorre con todos los sentidos</h2>
+        <section id="informacion" class="seccion">
+            <div class="contenedor informacion">
+                <div class="textoInformacion">
+                    <p class="etiqueta">PAISAJES + CULTURA</p>
 
-            <p>
-                El país reúne desiertos, montañas, humedales, ciudades y costas
-                en un territorio de grandes contrastes.
-            </p>
+                    <h2 class="tituloSeccion">Argentina se recorre con todos los sentidos.</h2>
 
-            <img src="https://framerusercontent.com/images/5ioq7Gv9jVdLISiRf2sWYUZjWU.jpg?height=900&width=1200"
-                alt="Paisaje de montañas y río en la Patagonia">
+                    <p class="textoPresentacion">
+                        El país reúne desiertos, montañas, humedales, ciudades y costas
+                        en un territorio de grandes contrastes.
+                    </p>
+                </div>
+
+                <img class="imagenInformacion" src="imagenes/paisaje-patagonia.jpg"
+                    alt="Paisaje de montañas y río en la Patagonia">
+            </div>
         </section>
 
 
-        <section id="datos">
-            <h2>Datos destacados</h2>
+        <section id="datos" class="seccionOscura">
+            <div class="contenedor">
+                <p class="etiquetaClara">DATOS DESTACADOS</p>
 
-            <h3>Superficie</h3>
-            <p>2,78 millones de km² de superficie continental.</p>
+                <h2 class="tituloSeccion">Una geografía que no entra en una sola postal.</h2>
 
-            <h3>Regiones turísticas</h3>
-            <p>7 regiones turísticas para explorar.</p>
+                <div class="grupoDatos">
+                    <div class="dato">
+                        <h3 class="numeroDato">2,78 M</h3>
+                        <p class="textoDato">km² de superficie continental.</p>
+                    </div>
 
-            <h3>Historias</h3>
-            <p>Infinitas historias para convertir en viaje.</p>
+                    <div class="dato">
+                        <h3 class="numeroDato">7</h3>
+                        <p class="textoDato">regiones turísticas para explorar.</p>
+                    </div>
+
+                    <div class="dato">
+                        <h3 class="numeroDato">Infinitas</h3>
+                        <p class="textoDato">historias para convertir en viaje.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
 
 
-    <footer id="contacto">
-        <p>Juan Pablo Castría Zambón</p>
-        <p>3°C - 2026</p>
-        <p>“Viajar también es aprender a mirar.”</p>
+    <footer id="contacto" class="pie">
+        <div class="contenedor contenidoPie">
+            <div>
+                <p class="nombrePie">Juan Pablo Castría Zambón</p>
+                <p class="textoPie">3°C - 2026</p>
+            </div>
+
+            <p class="textoPie">“Viajar también es aprender a mirar.”</p>
+        </div>
     </footer>
 
 </body>
