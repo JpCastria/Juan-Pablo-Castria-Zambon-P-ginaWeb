@@ -1,0 +1,11 @@
+Rutas Argentinas - Juan Pablo Castría Zambón - 3°C
+
+Para este proyecto elegí el turismo en Argentina y el sitio se llama "Rutas Argentinas". Elegí este tema porque nuestro país tiene muchísima variedad de paisajes, culturas y lugares, y me pareció que se prestaba para armar una página visual. El objetivo es mostrar destinos como la Patagonia, Buenos Aires y las Cataratas del Iguazú, y está pensado para cualquier persona que quiera viajar y busque inspirarse antes de informarse más.
+
+La página está dividida en secciones para que sea fácil de recorrer: una presentación inicial, los destinos en tarjetas ordenados de sur a norte, una parte de "Paisajes + cultura", los datos destacados y, al final, un pie de página con mis datos. En cuanto a los colores, usé una paleta simple y minimalista con blanco, negro y grises, porque quería que lo que se destaque no sea el diseño, sino los destinos. Por eso las imágenes son fotos reales de cada lugar y son las que le dan color a la página. El fondo es claro y usé un color oscuro en la sección de datos y en el botón principal para generar contraste. Para los títulos elegí Clash Display, que es moderna y llamativa, y para los textos y el menú usé Saira, que es más simple y fácil de leer. Creo que en general logré un estilo ordenado, parecido al de una revista de viajes que fue otra de las fuentes de inspiración.
+
+HTML lo usé para armar la estructura y el contenido, y CSS para los colores, las tipografías y para acomodar los elementos en filas o columnas. GitHub me sirvió para guardar el proyecto y subir cada entrega, y GitHub Pages para publicar el sitio y que cualquiera pueda entrar con un link.
+
+Una de las dificultades fue adaptar la página al celular, porque las tarjetas quedaban apretadas. Lo resolví haciendo primero la versión para celular con todo en columna y después agregando reglas en el CSS que solo se aplican desde cierto ancho de pantalla, para que en las grandes se pongan en fila. Otra dificultad fue que GitHub Pages no funcionaba porque el repositorio estaba privado, así que lo hice público.
+
+Con este proyecto aprendí a ordenar los elementos en filas y columnas desde el CSS, a cambiar el diseño según el tamaño de la pantalla, a usar variables, a organizar las carpetas de un sitio y a publicarlo en internet.
